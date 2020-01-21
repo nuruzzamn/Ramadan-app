@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.romadanapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ramadanlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ramadanlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".about"></activity>
+        <activity android:name=".moreapp" />
+        <activity android:name=".feedback"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".a22" />
+        <activity android:name=".a21" />
+        <activity android:name=".a20" />
+        <activity android:name=".a19" />
+        <activity android:name=".a18" />
+        <activity android:name=".a17" />
+        <activity android:name=".a16" />
+        <activity android:name=".a15" />
+        <activity android:name=".a14" />
+        <activity android:name=".a13" />
+        <activity android:name=".a12" />
+        <activity android:name=".a11" />
+        <activity android:name=".a7" />
+        <activity android:name=".a6" />
+        <activity android:name=".a5" />
+        <activity android:name=".a4" />
+        <activity android:name=".a3" />
+        <activity android:name=".a2" />
+        <activity android:name=".a1" />
+        <activity android:name=".welcomeScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

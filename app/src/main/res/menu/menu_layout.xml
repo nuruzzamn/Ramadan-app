@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"
+
+        />
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        android:icon="@drawable/feedback_black"
+        />
+    <item
+        android:id="@+id/moreapp"
+        android:title="More App"
+        android:icon="@drawable/more_black"
+        />
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/info_outline_black"
+        />
+
+</menu>

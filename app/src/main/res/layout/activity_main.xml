@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:background="#FAF4E2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="494dp"
+            android:background="@drawable/background_design"
+            android:orientation="vertical"
+            android:padding="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_gravity="top|center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/gradient_text_background"
+                android:gravity="center_horizontal"
+                android:text="@string/text1"
+                android:textColor="#FCFAFB"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="1. মাহে রমযান মাসের বিশেষত্ব"
+                android:textColor="#F4FF81"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="2. রমযানের করণীয়"
+                android:textColor="#F4FF81"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="3. রোযার হাকীকত"
+                android:textColor="#F4FF81"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="4. রোযার ইতিবৃত্ত"
+                android:textColor="#F4FF81"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="5. রোযার হেকমত"
+                android:textColor="#F4FF81"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="6. রোযার ফযীলত"
+                android:textColor="#F4FF81"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="7. রোযার আদব"
+                android:textColor="#F4FF81"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="660dp"
+            android:background="@drawable/gradient_background_2nd"
+            android:orientation="vertical"
+            android:padding="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/gradient_text_background"
+                android:gravity="center_horizontal"
+                android:text="হাদিসের আলোকে রোযার মাসায়েল"
+                android:textColor="#FCFAFB"
+                android:paddingTop="1dp"
+                android:paddingBottom="15dp"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="1. নিয়ত"
+                android:textColor="#F4FF81"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="2. সাহরী"
+                android:textColor="#F4FF81"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="3. ইফতারের সময় দুআ"
+                android:textColor="#F4FF81"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="4. রোযা ভঙ্গের কারণসমূহ"
+                android:textColor="#F4FF81"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="5. কাফফারা আদায়ের নিয়ম"
+                android:textColor="#F4FF81"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="6. যেসব কারণে শুধু কাযা করতে হয়"
+                android:textColor="#F4FF81"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="7. যেসব কারণে রোযা ভাঙে না"
+                android:textColor="#F4FF81"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="8. যাদের জন্য রোযা না রাখার অনুমতি রয়েছে"
+                android:textColor="#F4FF81"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="9. রোযা মাকরূহ হওয়ার কারণসমূহ"
+                android:textColor="#F4FF81"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_ripple_border"
+                android:padding="10dp"
+                android:text="10. যেসব কাজ রোযাদারের জন্য মাকরূহ নয়"
+                android:textColor="#F4FF81"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_marginTop="3dp"
+        android:background="#EEB8B9BB"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="* রোযা সম্পর্কিত প্রশ্ন-উত্তর"
+            android:textColor="#AE0A0A0A"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F44336"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="** কিছু কথা "
+                android:textColor="#FCFAF7F7"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
