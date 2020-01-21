@@ -4,7 +4,7 @@ This is an informatic app for Ramadan. During Ramadan, I built it but recently I
 ### Use :
 - Android sdk.
 - Animation.
-- Custom Button ,Background Design.
+- Custom Button ,Background Design with gradiant color.
 - Alert Dialog.
 - Send Email from the app and more.
 
